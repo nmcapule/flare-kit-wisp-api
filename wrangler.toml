@@ -1,0 +1,7 @@
+account_id = "920ae3df2fe96c94928358259f7fca36"
+name = "flare-kit-wisp-api"
+route = ""
+type = "webpack"
+webpack_config = "webpack.config.js"
+workers_dev = true
+zone_id = "45f325f8c04f9171d85e75150107cdf8"
