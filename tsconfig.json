@@ -10,6 +10,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "esModuleInterop": true,
+    "noImplicitAny": false,
     "types": ["@cloudflare/workers-types"]
   },
   "include": [
@@ -17,7 +18,8 @@
     "./test/*.ts",
     "./src/**/*.ts",
     "./test/**/*.ts",
-    "./node_modules/@cloudflare/workers-types/index.d.ts"
+    "./node_modules/@cloudflare/workers-types/index.d.ts",
+    "binding.d.ts"
   ],
   "exclude": ["node_modules/", "dist/"]
 }
